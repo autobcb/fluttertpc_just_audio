@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <licensefile></licensefile>
+        <policylist>
+            <policy desc="" name="projectPolicy">
+				<policyitem type="license" name="MIT" path=".*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="当前项目兼容此协议" />
+			</policy>
+        </policylist>
+
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="LICENSE" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/example/.*" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ios/.*" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name=".pubignore" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/darwin/.*" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/android/.*" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/macos/.*" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name="*.dart" desc="just_audio（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name="*.yaml" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name="*.lock" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name=".metadata" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ohos/ohos/hvigorfile.ts" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filename" name="*.json5" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ohos/ohos/BuildProfile.ets" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ohos/example/.*" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio_background/.*" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio_web/.*" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+            </filefilter>
+
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filepath" name="just_audio/example/.*" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ios/.*" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/darwin/.*" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/android/.*" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/macos/.*" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name="*.dart" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name="*.yaml" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name="*.lock" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filename" name=".metadata" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filename" name=".pubignore" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filename" name="just_audio/LICENSE" desc="just_audio开源库代码（或原库代码文件），原本就无版权头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ohos/ohos/hvigorfile.ts" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                
+                <filteritem type="filename" name="*.json5" desc="just_audio开源库代码（或原库代码文件），原本就无协议头，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/example/.flutter-plugins" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/example/.flutter-plugins-dependencies" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ohos/ohos/BuildProfile.ets" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio/ohos/example/.*" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio_background/.*" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+                <filteritem type="filepath" name="just_audio_web/.*" desc="just_audio开源库代码（或原库代码文件），版权头维持原样，不做侵入式修改"/>
+            </filefilter>
+
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
+                <filteritem type="filename" name="*.png|*.ttf|*.otf|*.so|*.ico|*.mp3" desc="desc files"/>
+                <filteritem type="filepath" name="just_audio/ohos/example/ohos/entry/src/main/resources/.*" desc="desc files"/>
+            </filefilter>
+
+        </filefilterlist>
+
+    </oatconfig>
+
+</configuration>
