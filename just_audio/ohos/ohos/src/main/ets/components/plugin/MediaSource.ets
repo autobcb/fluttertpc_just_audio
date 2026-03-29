@@ -29,8 +29,6 @@ export default class MediaSource implements media.MediaSource {
 
   enableOfflineCache(enable: boolean): void {
     this.cacheEnabled = enable;
-    // 调用原生能力控制缓存
-    nativeMediaControl.setOfflineCache(enable);
   }
   header: Record<string, string> | null = null
   id: string = "";
