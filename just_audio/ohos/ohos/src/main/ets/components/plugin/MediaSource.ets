@@ -25,8 +25,13 @@ import { LoopMode } from './MediaAvPlayer'
 import { Log } from '@ohos/flutter_ohos';
 
 export default class MediaSource implements media.MediaSource {
-  // 补全缺失的必需属性
-  enableOfflineCache: boolean = false; // 根据需求初始化值
+  private cacheEnabled = false;
+
+  enableOfflineCache(enable: boolean): void {
+    this.cacheEnabled = enable;
+    // 调用原生能力控制缓存
+    nativeMediaControl.setOfflineCache(enable);
+  }
   header: Record<string, string> | null = null
   id: string = "";
   uri: string = "";
