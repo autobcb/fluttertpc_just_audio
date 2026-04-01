@@ -548,6 +548,12 @@ export class MediaAvPlayer {
 
   public setSpeed(speed: number) {
     switch (speed) {
+       case 0.125:
+         this.speed = 9;
+         break;
+       case 0.25:
+         this.speed = 8;
+         break;
       case 0.5:
       case 0.6:
         //x0.5
@@ -574,8 +580,13 @@ export class MediaAvPlayer {
         //x1.5
         this.speed = 6;
         break;
+      case 1.75:
+        this.speed = 3;
+        break;
       case 2:
         this.speed = 4;
+       case 3:
+        this.speed = 7;
         break;
     }
     this.avPlayer?.setSpeed(this.speed);
